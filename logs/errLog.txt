@@ -1,0 +1,42 @@
+20221217	21:05:56	a5ccfe34-e271-4b00-b8c7-d4ea7930d2a0	Error: Not allowed by CORS
+20221217	21:34:24	0a0571d5-c774-4fd6-ab8f-e2561f7ecd90	TypeError: Cannot read properties of undefined (reading 'name')
+20221217	21:35:03	6b030909-ff9d-4698-a34d-a1c0b7aa1c9e	TypeError: Cannot read properties of undefined (reading 'name')
+20221217	21:35:18	6cff4591-8535-4777-bc47-7ed9733024c9	TypeError: Cannot read properties of undefined (reading 'name')
+20221217	21:36:37	77fb6053-51f8-4f19-b549-a32f4d4f412d	TypeError: Cannot read properties of undefined (reading 'name')
+20221217	21:36:41	cc5ea762-89aa-4e7b-9ff8-21f43408e441	TypeError: Cannot read properties of undefined (reading 'name')
+20221217	21:43:23	94e1ad5a-e178-4807-92ff-f7580faea8c4	TypeError: Cannot read properties of undefined (reading 'name')
+20221217	21:43:24	6984988c-3e41-4004-bf81-91add09fdf3b	TypeError: Cannot read properties of undefined (reading 'name')
+20221217	21:43:25	22efb1c7-bd69-468c-9544-5d517a213d6b	TypeError: Cannot read properties of undefined (reading 'name')
+20221217	21:45:21	a843db49-4258-4d1f-9a85-c4da148758b5	TypeError: Cannot read properties of undefined (reading 'name')
+20221217	21:46:03	4543833b-fb6d-4344-b4d3-cfd0a69bcbe1	TypeError: Cannot read properties of undefined (reading 'name')
+20221217	21:49:42	2b3a6d2a-178a-47c6-804d-b515b4d6b72e	TypeError: Cannot read properties of undefined (reading 'name')
+20221218	08:51:06	c242982e-433c-4cef-9978-273e01372c56	Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+20221218	08:55:17	97deaa62-d8df-4f31-90e0-cca0ff58301b	Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+20221218	08:55:20	5aba9faa-f271-41ec-9cc7-3c67589fe1a9	Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+20221218	08:57:25	77c5f38c-ce86-4d5e-a15a-99704bcee864	Error: Login sessions require session support. Did you forget to use `express-session` middleware?
+20221218	09:11:27	2a10f7de-1ba3-44b4-b2d5-8100e25dd9b8	Error: secret option required for sessions
+20221218	09:11:31	e25f3414-3761-4ed2-accf-4722c3fb8725	Error: secret option required for sessions
+20221218	09:13:38	1b8aa2ae-5911-49ca-a406-5d71b3dbffe0	Error: secret option required for sessions
+20221218	09:48:20	9ca5540f-87ce-4493-a273-d3657d30d12f	TokenError: client_secret is missing.
+20221218	09:48:44	1b645660-5896-4591-8c54-fba9222082e6	TokenError: client_secret is missing.
+20221218	09:48:45	2483a3d5-3114-4c57-8bb2-68490489e3cb	TokenError: client_secret is missing.
+20221218	09:48:45	c10436db-661e-45cb-b656-16fff0b21cd7	TokenError: client_secret is missing.
+20221218	09:48:55	968ea9b8-15d4-4f69-8f66-a8d9f8953a2c	TokenError: client_secret is missing.
+20221218	09:52:09	93e3f5d4-57d2-460a-b24e-c48b11c9ede7	TokenError: Bad Request
+20221218	09:56:21	70ff08d5-efbf-47c8-9fe0-1934c8fc8cad	TokenError: Bad Request
+20221218	09:57:31	def1b296-929c-4e81-8f7b-abfd1cd3d323	TokenError: Bad Request
+20221218	09:57:33	faf9fb05-fc97-420c-9dec-37896668a325	TokenError: Bad Request
+20221218	09:58:29	801debf1-541f-4af4-a3e2-878329fb25d3	TokenError: Bad Request
+20221218	09:58:49	db399b48-b63c-434e-9633-754bb669f7d7	TokenError: Bad Request
+20221218	10:17:57	4f67970d-c89f-4bb5-b7d3-e7f52d5842d2	TokenError: Bad Request
+20221218	10:19:37	cc84643f-d5a3-4e03-bc60-dc0ff6025396	TokenError: Bad Request
+20221218	10:20:48	ff8b8107-af97-4977-b08e-f5c55d1c170c	TokenError: Bad Request
+20221218	10:23:03	b837b52a-2c19-4175-9118-4c350fcde785	TokenError: Bad Request
+20221218	10:23:04	3c72abd5-5366-4ebb-b19b-a8ba1ffa8082	TokenError: Bad Request
+20221218	10:24:21	05637762-7c96-4347-a095-5c149760d5aa	TokenError: Bad Request
+20221218	10:24:22	6b58db4a-7c16-4c0f-a960-4cb105c77c07	TokenError: Bad Request
+20221218	10:27:53	a28a5b04-a91c-4d93-a60d-162ce4a29fd0	CastError: Cast to string failed for value "{ familyName: undefined, givenName: 'oklogt' }" (type Object) at path "name" for model "user"
+20221218	18:56:05	56dde4f1-50cd-456e-8173-690626619ecd	CastError: Cast to string failed for value "{ familyName: undefined, givenName: 'oklogt' }" (type Object) at path "name" for model "user"
+20221218	18:58:41	f7f579db-cdf5-4fa5-8a91-2376c9931709	TokenError: Bad Request
+20221218	19:15:09	adc1da92-a79c-47fc-8bd0-5e9305294a13	TokenError: Bad Request
+20221218	19:16:27	dd1c9236-07c0-4293-a2ae-05727f99602f	TokenError: Bad Request
