@@ -40,3 +40,13 @@
 20221218	18:58:41	f7f579db-cdf5-4fa5-8a91-2376c9931709	TokenError: Bad Request
 20221218	19:15:09	adc1da92-a79c-47fc-8bd0-5e9305294a13	TokenError: Bad Request
 20221218	19:16:27	dd1c9236-07c0-4293-a2ae-05727f99602f	TokenError: Bad Request
+20221218	20:47:26	0498ee5b-e667-4838-ae4a-84dc6b26a014	TokenError: Bad Request
+20221218	20:56:07	254fcff9-ffbc-4f32-b7fc-b1ef38e9e263	TokenError: Bad Request
+20221218	21:28:20	d1821da1-0a92-4502-bd4b-3c8165686b14	TokenError: Bad Request
+20221218	21:29:26	432d1f02-8e7d-4168-a958-9f97ac659004	TokenError: Bad Request
+20221218	21:42:13	b7cfad80-4c2f-4161-a31c-b1322103fd59	MongooseError: Query was already executed: User.findOne({ googleid: '116584453428445620064' })
+20221218	21:43:10	f9aba1a8-2f41-45bb-a53b-864a62971e1d	MongooseError: Query was already executed: User.find({ googleid: '116584453428445620064' })
+20221218	21:48:05	42ea8fbb-6306-41d0-bcda-ae3568ebc3f7	Error: Failed to serialize user into session
+20221218	22:12:11	acdd66d2-cc59-410a-a9e7-55198a34b646	undefined: undefined
+20221218	22:12:24	118b057d-e443-427b-baae-3b2315c3ec07	TokenError: Bad Request
+20221218	22:12:38	ef302031-b61d-467a-8722-ef3786c8b778	undefined: undefined

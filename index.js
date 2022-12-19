@@ -20,12 +20,11 @@ app.use(cors(corsOption));
 app.use(express.json());
 
 // app.use(session2({}));
-app.use(
-  cookieSession({
-    maxAge: 24 * 60 * 60 * 1000,
-    keys: [process.env.COOKIE_KEY],
-  })
-)
+app.use(session2({
+  secret: "Our little secret.",
+  resave: false,
+  saveUninitialized: false
+}));
 app.use(passport.initialize());
 app.use(passport.session());
 
