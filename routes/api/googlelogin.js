@@ -2,7 +2,7 @@ const express =require('express');
 const passport =require('passport');
 
 const router =express.Router();
-const succesloginurl="http://localhost:3000"
+const succesloginurl="http://localhost:3000/login/loginsuccess"
 const failloginurl="http://localhost:3000/login"
 
 router.get("/login/google",passport.authenticate("google",{scope:["profile","email"]}));
