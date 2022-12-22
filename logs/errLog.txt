@@ -50,3 +50,4 @@
 20221218	22:12:11	acdd66d2-cc59-410a-a9e7-55198a34b646	undefined: undefined
 20221218	22:12:24	118b057d-e443-427b-baae-3b2315c3ec07	TokenError: Bad Request
 20221218	22:12:38	ef302031-b61d-467a-8722-ef3786c8b778	undefined: undefined
+20221220	15:34:46	8e8cbc6c-c01f-4056-8396-604854feae76	TokenError: Bad Request

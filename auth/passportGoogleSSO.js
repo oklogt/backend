@@ -16,7 +16,7 @@ passport.use(new GoogleStrategy({
         email:profile.emails[0].value,
         id:profile.id
     };
-    const user =await User.find({"googleid":profile.id},function(err,user){
+    const user =await User.findOne({"googleid":profile.id},function(err,user){
         if(err){return cb(err)}
         if(!user){
             user =new User({
@@ -30,7 +30,7 @@ passport.use(new GoogleStrategy({
         }else{
             return cb(err,user);
         }
-    }).catch(function(err){ console.log(err)})
+    }).clone().catch(function(err){ console.log(err)})
         
     if(user && user[0])
         return cb(null,user && user[0]);    
