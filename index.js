@@ -13,10 +13,11 @@ const cookieSession = require('cookie-session')
 require('./auth/passport')
 require('./auth/passportGoogleSSO')
 require('./routes/api/googlelogin')
+require('./routes/api/user')
 const session2 = require('express-session')
 
 app.use(logger);
-app.use(cors(corsOption));
+app.use(cors({origin:"http://localhost:3000",credentials:true}));
 app.use(express.json());
 
 // app.use(session2({}));
@@ -30,6 +31,7 @@ app.use(passport.session());
 
 app.use('/players',require('./routes/api/players'));
 app.use('/api',require('./routes/api/googlelogin'));
+app.use('/api',require('./routes/api/user'));
 
 
 

@@ -15,4 +15,5 @@ router.get("/auth/google/callback",passport.authenticate("google",{
     console.log("Player",req.user)
     res.send("thanks for signing in!");
 })
+
 module.exports =router;

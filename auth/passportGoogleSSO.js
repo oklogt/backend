@@ -42,12 +42,13 @@ passport.serializeUser((user,cb)=>{
     console.log("serial player",user);
     cb(null,user);
 });
-passport.deserializeUser(async(id,cb)=>{
-    const user= await User.findOne({where:id})
-    .catch((err)=>{
-        console.log("error in sign up",err);
-        cb(err,null);
-    })
+passport.deserializeUser(async(user,cb)=>{
+    // console.log(id);
+    // const user= await User.findOne({"_id":{id}})
+    // .catch((err)=>{
+    //     console.log("error in sign up",err);
+    //     cb(err,null);
+    // })
     console.log("deserial player",user);
     if(user) cb(null,user);
 });

@@ -51,3 +51,19 @@
 20221218	22:12:24	118b057d-e443-427b-baae-3b2315c3ec07	TokenError: Bad Request
 20221218	22:12:38	ef302031-b61d-467a-8722-ef3786c8b778	undefined: undefined
 20221220	15:34:46	8e8cbc6c-c01f-4056-8396-604854feae76	TokenError: Bad Request
+20221223	00:56:08	ac84bb6c-1dfa-4d64-aea9-7de325996682	Error: Unknown authentication strategy "google"
+20221223	01:45:28	daa42fc6-5c28-4eac-b8b2-5334fbed3c9c	CastError: Cast to string failed for value "{
+  id: {
+    _id: '63a1656558c900db64f92c43',
+    username: 'oklogt',
+    email: 'ernestyeh1688@gmail.com',
+    googleid: '116584453428445620064',
+    __v: 0
+  }
+}" (type Object) at path "googleid" for model "User"
+20221223	01:53:41	72dddae1-90a5-4cf6-9f2c-d05343ed00bb	CastError: Cast to ObjectId failed for value "{ id: '63a1656558c900db64f92c43' }" (type Object) at path "_id" for model "User"
+20221223	01:56:50	fd7c486b-f2e9-4a51-b351-91faeb63007a	Error: Cannot set headers after they are sent to the client
+20221223	01:57:56	dd687118-d4ef-4e32-ad8b-72e2ebc10b0a	Error: Cannot set headers after they are sent to the client
+20221223	02:08:19	0151e49a-2dfa-4e15-a2a6-a6b541b7422d	Error: Cannot set headers after they are sent to the client
+20221223	02:11:27	da558e6a-cc9c-455c-8a1f-80789241d5fa	Error: Cannot set headers after they are sent to the client
+20221223	02:12:26	ee9426c7-9153-4033-9534-e7dc605d4a51	Error: Cannot set headers after they are sent to the client
