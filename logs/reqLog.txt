@@ -346,3 +346,14 @@
 20221223	02:14:04	c63b89ec-032d-4be8-882f-fa05da18d0a0	GET	undefined	/api/login/google
 20221223	02:14:07	4a79d35f-bf94-4755-a9bb-2faedc20d386	GET	undefined	/api/auth/google/callback?code=4%2F0AWgavdewrd28k0IlWs9bOQwnxrrYTXacOHUaBaXdNQbruQ4IlOWX2R5-kyasdyBK2zouEQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=2&prompt=consent
 20221223	02:14:09	1eb03cc9-7d81-47be-b04d-ab3399e59d10	GET	http://localhost:3000	/api/auth/user
+20221223	20:49:28	4a399e7e-423f-4cc8-bdfa-b6fb38365f6a	GET	http://localhost:3000	/express_backend
+20221223	20:49:28	0adf2b7f-e8ee-44c8-94d9-a0dac808bc69	GET	http://localhost:3000	/express_backend
+20221223	20:49:59	6ac7d79f-f692-4440-a45e-d6189810db3a	GET	undefined	/api/login/google
+20221223	20:50:02	fc9362e3-e5f2-4dbb-b03c-a2e50487b6e1	GET	undefined	/api/auth/google/callback?code=4%2F0AWgavdfCbfRnIcnPmeErnwgL4xpMP_DWTUXMzXJwVr8RWNem6lmVzZkxq89ChvrRy65NbQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent
+20221223	20:50:04	c1d0655c-6193-4aaa-a92f-26f58a1e2028	GET	http://localhost:3000	/api/auth/user
+20221224	01:28:13	15481e14-cb26-4e94-b367-abf129b081e1	GET	undefined	/
+20221224	01:28:14	cbebfc31-a7f5-4e40-9163-27f23a33433b	GET	undefined	/
+20221224	01:28:14	64025040-df71-48ef-bef6-6dc250af693f	GET	undefined	/favicon.ico
+20221224	01:30:21	e92f6177-bd33-497c-9388-9a5f4a1b01e6	GET	undefined	/
+20221224	01:30:21	139d36d3-519d-4686-951a-70486fc72d19	GET	undefined	/
+20221224	01:30:22	7dd78c40-98a2-4d0f-a5d8-92cf41718f63	GET	undefined	/favicon.ico
