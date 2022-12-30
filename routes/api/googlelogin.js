@@ -11,7 +11,8 @@ router.get("/auth/google/callback",passport.authenticate("google",{
     failureMessage:"cannot login with google",
     failureRedirect:failloginurl,
     successRedirect:succesloginurl
-}),(req,res)=>{
+}),(req,res,next)=>{
+    console.log("passport")
     console.log("Player",req.user)
     res.send("thanks for signing in!");
 })

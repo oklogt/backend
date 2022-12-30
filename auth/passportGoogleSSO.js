@@ -2,6 +2,7 @@ const passport=require('passport');
 const GoogleStrategy =require ('passport-google-oauth20').Strategy;
 
 const User =require('../model/user');
+const City= require('../model/city');
 const GOOGLE_CALLBACK="http://localhost:5000/api/auth/google/callback";
 
 
@@ -11,11 +12,7 @@ passport.use(new GoogleStrategy({
     callbackURL: GOOGLE_CALLBACK,
     passReqToCallback:true
 },async(req,accessToken, refreshToken,profile,cb)=>{
-    const defaultPlayer={
-        name:`${profile.name}`,
-        email:profile.emails[0].value,
-        id:profile.id
-    };
+
     const user =await User.findOne({"googleid":profile.id},function(err,user){
         if(err){return cb(err)}
         if(!user){
@@ -25,15 +22,16 @@ passport.use(new GoogleStrategy({
                 googleid:profile.id
             });
             user.save(function(err){
+                console.log("saving")
                 if(err){return cb(err);}
             })
         }else{
             return cb(err,user);
         }
     }).clone().catch(function(err){ console.log(err)})
+    
         
-    if(user && user[0])
-        return cb(null,user && user[0]);    
+      
 }));
 
 
@@ -43,12 +41,6 @@ passport.serializeUser((user,cb)=>{
     cb(null,user);
 });
 passport.deserializeUser(async(user,cb)=>{
-    // console.log(id);
-    // const user= await User.findOne({"_id":{id}})
-    // .catch((err)=>{
-    //     console.log("error in sign up",err);
-    //     cb(err,null);
-    // })
     console.log("deserial player",user);
     if(user) cb(null,user);
 });

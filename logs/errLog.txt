@@ -67,3 +67,17 @@
 20221223	02:08:19	0151e49a-2dfa-4e15-a2a6-a6b541b7422d	Error: Cannot set headers after they are sent to the client
 20221223	02:11:27	da558e6a-cc9c-455c-8a1f-80789241d5fa	Error: Cannot set headers after they are sent to the client
 20221223	02:12:26	ee9426c7-9153-4033-9534-e7dc605d4a51	Error: Cannot set headers after they are sent to the client
+20221227	03:13:06	d50403d4-089f-4ca9-9009-47b36da6b303	TokenError: Bad Request
+20221227	03:14:33	5c972077-f0a1-434e-8b0c-d0770eb9e460	TokenError: Bad Request
+20221227	03:15:03	924504e7-3649-464c-bb30-1f8c08daae02	undefined: undefined
+20221227	03:15:05	9b2991cb-b2ce-4375-85c3-2bc8f8bbed67	TokenError: Bad Request
+20221227	03:15:25	0c1a819b-7738-4a3c-a825-b041d933a245	undefined: undefined
+20221227	03:15:49	ecf39bb1-9a7f-42fb-9d15-fe9d38ada62b	undefined: undefined
+20221227	03:16:14	ba3b42b7-f051-434b-8c90-d9e15e70e879	undefined: undefined
+20221227	03:17:03	aba64335-2b45-44b5-a02c-571d30e19e62	undefined: undefined
+20221227	03:24:57	2825745e-8565-41f8-b4a6-9e76f09a98fa	TokenError: Bad Request
+20221227	03:27:18	05a26d6d-87f8-412c-a998-1c2b4b38ec20	TokenError: Bad Request
+20221227	03:51:41	34c141b9-fbc2-4e9e-9591-3456b6bf5162	TokenError: Bad Request
+20221227	03:54:04	38f2052e-9a22-420c-b161-c21eb1875ed0	TokenError: Bad Request
+20221227	04:02:33	42790e94-5ad3-4f2b-9855-e94e64c1cb7d	TokenError: Bad Request
+20221227	04:03:28	26761697-f605-423e-b4ea-3a2d41652d3a	TokenError: Bad Request

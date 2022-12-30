@@ -14,6 +14,7 @@ passport.use(
     function(jwtPayload,done){
         return players.findOne({where:{id:jwtPayload.id}})
             .then((player)=>{
+                console.log("jwt")
                 return done(null,player)
             })
             .catch((err)=>{
