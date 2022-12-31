@@ -11,10 +11,14 @@ router.get("/auth/google/callback",passport.authenticate("google",{
     failureMessage:"cannot login with google",
     failureRedirect:failloginurl,
     successRedirect:succesloginurl
-}),(req,res,next)=>{
-    console.log("passport")
-    console.log("Player",req.user)
-    res.send("thanks for signing in!");
+}),(req,res)=>{
+    res.redirect("/")
 })
+router.get('/logout', function(req, res, next) {
+    req.logout(function(err) {
+      if (err) { return next(err); }
+      res.redirect('/');
+    });
+  });
 
 module.exports =router;

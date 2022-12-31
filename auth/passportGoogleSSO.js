@@ -10,7 +10,8 @@ passport.use(new GoogleStrategy({
     clientID:process.env.GOOGLE_CLIENT_ID,
     clientSecret:process.env.GOOGLE_CLIENT_SECRET,
     callbackURL: GOOGLE_CALLBACK,
-    passReqToCallback:true
+    passReqToCallback:true,
+    prompt:"select_account"
 },async(req,accessToken, refreshToken,profile,cb)=>{
 
     const user =await User.findOne({"googleid":profile.id},function(err,user){
