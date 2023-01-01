@@ -2,7 +2,6 @@ const passport=require('passport');
 const GoogleStrategy =require ('passport-google-oauth20').Strategy;
 
 const User =require('../model/user');
-const City= require('../model/city');
 const GOOGLE_CALLBACK="http://localhost:5000/api/auth/google/callback";
 
 

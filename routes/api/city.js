@@ -7,4 +7,7 @@ router.route("/city")
     .post(cityController.createCity)
     .patch(cityController.updateCity)
     .delete(cityController.deleteCity)
+
+router.route("/checkcityowner").post(cityController.checkcityowner)
+
 module.exports=router

@@ -33,8 +33,7 @@ app.use('/players',require('./routes/api/players'));
 app.use('/api',require('./routes/api/googlelogin'));
 app.use('/api',require('./routes/api/user'));
 app.use('/api',require('./routes/api/city'));
-app.use('/api',require('./routes/api/checkcityowner'));
-
+app.use('/api',require('./routes/api/resource'));
 
 
 async function connect(){

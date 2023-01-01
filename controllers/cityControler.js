@@ -33,9 +33,23 @@ const deleteCity= async(req,res)=>{
     
 }
 
+const checkcityowner=async(req,res)=>{
+    const {cordinateX,cordinateY}=req.body
+    if(!cordinateX || !cordinateY){
+        return res.status(400).json({message:"資料不完整"})
+    }
+    const city = await City.find({cordinateX,cordinateY}).select("username").lean()
+    if(!city){
+        return res.status(400).json({message:"No City found"})
+    }else{
+        res.json(city)
+    }
+}
+
 module.exports={
     getAllCity,
     createCity,
     updateCity,
-    deleteCity
+    deleteCity,
+    checkcityowner
 }
