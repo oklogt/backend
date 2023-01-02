@@ -19,7 +19,6 @@ const getuserresource=async(req,res)=>{
             res.status(400).json({message:"create resource failed"})
         }
     }
-
 }
 
 module.exports={
