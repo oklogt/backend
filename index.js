@@ -40,7 +40,7 @@ app.use(session2({
 app.use(passport.initialize());
 app.use(passport.session());
 
-app.use('/players',require('./routes/api/players'));
+
 app.use('/api',require('./routes/api/googlelogin'));
 app.use('/api',require('./routes/api/user'));
 app.use('/api',require('./routes/api/city'));

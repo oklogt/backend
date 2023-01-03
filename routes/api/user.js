@@ -1,9 +1,14 @@
 const express=require('express');
-const { isUserAuthenticated } = require('../../middleware/auth');
+const auth = require('../../middleware/auth');
 const router =express.Router();
 
-router.get("/auth/user",isUserAuthenticated,(req,res)=>{
+
+router.get("/auth/user",auth.isUserAuthenticated,(req,res)=>{
     res.json(req.user);
 })
+router.post("/register",auth.register);
+
+router.post("/login",auth.login);
+
 
 module.exports =router;

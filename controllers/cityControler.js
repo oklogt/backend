@@ -9,15 +9,15 @@ const getAllCity= async(req,res)=>{
     res.json(city)
 }
 const createCity= async(req,res)=>{
-    const {usergoogleid,username,cityname,cordinateX,cordinateY}=req.body
-    if(!usergoogleid||!username||!cityname || !cordinateX || !cordinateY){
+    const {useremail,username,cityname,cordinateX,cordinateY}=req.body
+    if(!useremail||!username||!cityname || !cordinateX || !cordinateY){
         return res.status(400).json({message:"資料不完整"})
     }
     const duplicate = await City.findOne({cordinateX,cordinateY}).lean().exec()
     if(duplicate){
         return res.status(409).json({message:"重複城市"})
     }
-    const cityObject ={usergoogleid,username,cityname,cordinateX,cordinateY}
+    const cityObject ={useremail,username,cityname,cordinateX,cordinateY}
     const city=City.create(cityObject)
     if(city){
         res.status(201).json({message:"success"})
@@ -46,10 +46,20 @@ const checkcityowner=async(req,res)=>{
     }
 }
 
+const checkownerscity=async(req,res)=>{
+    const {useremail}=req.body
+    if(!useremail){
+        return res.status(400).json({message:"資料不完整"})
+    }
+    const citycount=await City.count({useremail:useremail})
+    res.json(citycount)
+}
+
 module.exports={
     getAllCity,
     createCity,
     updateCity,
     deleteCity,
-    checkcityowner
+    checkcityowner,
+    checkownerscity
 }

@@ -81,3 +81,4 @@
 20221227	03:54:04	38f2052e-9a22-420c-b161-c21eb1875ed0	TokenError: Bad Request
 20221227	04:02:33	42790e94-5ad3-4f2b-9855-e94e64c1cb7d	TokenError: Bad Request
 20221227	04:03:28	26761697-f605-423e-b4ea-3a2d41652d3a	TokenError: Bad Request
+20230103	12:11:45	06128b60-caaa-4dc4-ae0f-a89550be848d	Error: 註冊失敗錯誤詳細描述: Illegal arguments: undefined, string

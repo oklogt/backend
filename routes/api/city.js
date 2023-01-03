@@ -8,6 +8,10 @@ router.route("/city")
     .patch(cityController.updateCity)
     .delete(cityController.deleteCity)
 
-router.route("/checkcityowner").post(cityController.checkcityowner)
+router.route("/checkcityowner")
+    .post(cityController.checkcityowner)
+
+router.route("/checkownerscity")
+    .post(cityController.checkownerscity)
 
 module.exports=router
