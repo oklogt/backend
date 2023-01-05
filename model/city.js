@@ -7,8 +7,11 @@ const citySchema=new mongoose.Schema({
     username:String,
     cityname: String,
     cordinateX:Number,
-    cordinateY:Number
-    
+    cordinateY:Number,
+    sawmillnum:Number,
+    farmnum:Number,
+    goldminenum:Number,
+    stoneminenum:Number
 })
 
 module.exports=mongoose.model('City',citySchema);
